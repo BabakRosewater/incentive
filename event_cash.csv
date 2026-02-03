@@ -1,3 +1,4 @@
 model_code,my,model_desc,section,type,program_id,program_name,amount_cash,end_date
-J2492A65,2026,2026 PALISADE CALLIGRAPHY AWD,Consumer Program,Rebate,2602RB005,26MY Palisade Event Cash,1000,3/2/2026
-J2452A65,2026,2026 PALISADE XRT PRO AWD,Consumer Program,Rebate,2602RB005,26MY Palisade Event Cash,1000,3/2/2026
+J2492A65,2026,PALISADE CALLIGRAPHY AWD,Consumer Program,Rebate,2602RB005,26MY Palisade Event Cash,1000,3/2/2026
+J2452A65,2026,PALISADE XRT PRO AWD,Consumer Program,Rebate,2602RB005,26MY Palisade Event Cash,1000,3/2/2026
+
