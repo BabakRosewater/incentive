@@ -1,0 +1,9 @@
+# CORS + caching for the raw CSV feed files (served as static assets).
+# Lets browser apps fetch the canonical incentive data directly.
+/*.csv
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET, OPTIONS
+  Cache-Control: public, max-age=300
+
+/api/*
+  Access-Control-Allow-Origin: *
