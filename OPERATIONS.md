@@ -67,16 +67,20 @@ To update incentives (e.g., a new Hyundai program month):
 
 ---
 
-## 3. Change log — July 2026 Summer Sales Event (in progress)
+## 3. Change log — July 2026 program (Summer Sales Event)
 
-Regional program walk-through, applied incrementally. `end_date` intentionally
-kept at **7/6/2026** (refresh again after 7/6).
+Official **MS Region Incentive Summary, effective 7/2/2026 → 8/3/2026**.
+60-month only; lease, 72-month, and MY2025 out of scope. (Earlier June rows and
+the incremental Tucson/Santa Fe steps below were superseded by the full July
+load in PR #11.)
 
 **`incentive` repo**
 - **PR #6** — June 2026 program load (`incentive_apr.csv`, `retail_bonus_cash.csv` incl. Kona ICE $750, `event_cash.csv`).
 - **PR #7** — Dealer Choice `bonus_cash` correction (Tucson ICE 3000→2250, Tucson HEV 2750→2000, IONIQ 5 6000→7000).
 - **PR #8** — Summer event: **Tucson ICE Low APR 0.99% → 0%** (5 trims); **Santa Fe (all) Low APR 1.99% → 0% + $1,500** (13 trims: 8 Hybrid, 5 ICE 2.5T). Dealer Choice / PHEV / Hybrid Low APR untouched.
 - **PR #9** — **Canonical feed**: Pages Functions serve the CSVs via `env.ASSETS` (CORS + `/api/feed` JSON); `_headers`; `CANONICAL_FEED.md`.
+- **PR #10** — `OPERATIONS.md` (this doc).
+- **PR #11** — **Full July program** (60-mo, eff 7/2–8/3): Tucson PHEV Low APR 4.99→**0%**; Dealer Choice APR rate → **5.19%** (Tucson) / **5.69%** (others); Tucson ICE DC bonus 2250→**3000**; Palisade gas DC bonus →**1000**; add Tucson PHEV DC (5.19%/$4,000); **remove Kona DC**; **add IONIQ 9** (Low APR 0%+$3,000, DC 5.69%+$10,000). Retail: Kona 750→1000, Santa Fe 2750→3000, Santa Cruz 1750→2000, add IONIQ 5 $7,000 + IONIQ 9 $10,000. All `end_date → 8/3/2026`.
 
 **`clark-inventory-finder`**
 - **PR #26** — Deleted the dead bundled `incentive/` CSV mirror (app reads the source live; folder was unused + stale).
@@ -84,21 +88,22 @@ kept at **7/6/2026** (refresh again after 7/6).
 **`Save_A_Deal_Logic`**
 - **PR #265** — `_lib/incentive_apr.js` now reads the canonical feed live (bundled CSV = offline fallback); refreshed the stale bundled snapshot (6/1 → current). No more per-update redeploy for data.
 - **PR #266** — Refreshed the specials messaging word-track (analyzer prompt + email templates, both `lib/` and `functions/_lib/` copies): Tucson 0.99→0%, Santa Fe 1.99%+$1,000 → 0%+$1,500, Santa Fe Hybrid 1.99%+$500 → 0%+$1,500; `month_label` June→July.
+- **PR #278** — Incentive matcher now recognizes **IONIQ 9** (model + EV powertrain + resolver) so the July IONIQ 9 program attaches to IONIQ 9 cases.
+- **PR #279** — Word-track July retail refresh: Kona $750→**$1,000**; add Santa Fe **$3,000** + Santa Cruz **$2,000** to featured list.
 
-**Net incentive state (live on feed):** Tucson ICE **0%**, Santa Fe **0% + $1,500**,
-Tucson Hybrid **1.99%**, Tucson PHEV **4.99%**, Kona **3.49% + $750 retail**,
-Elantra/Elantra HEV **3.49%**, Sonata **0.99%**, Palisade & others per file — all `end_date 7/6/2026`.
+**Net incentive state (live on feed, eff 7/2–8/3/2026):** Tucson ICE **0%**, Tucson PHEV **0%**,
+Santa Fe ICE+HEV **0% + $1,500**, Tucson Hybrid **1.99%**, Sonata **0.99%**, Elantra/Elantra HEV/Kona **3.49%**,
+Palisade gas **3.99%**, Palisade HEV **4.49%**, Santa Cruz **4.99%**, Venue **5.49%**, IONIQ 5 **0% + $1,000**, IONIQ 9 **0% + $3,000**.
+Dealer Choice: **5.19%** (Tucson) / **5.69%** (others); **Kona has no DC**. Retail: Kona **$1,000**, Santa Fe **$3,000**, Santa Cruz **$2,000**, Elantra $2,000/$1,000, IONIQ 5 $7,000, IONIQ 9 $10,000. All `end_date 8/3/2026`.
 
 ---
 
 ## 4. Open items / TODO
 
-- [ ] **Finish the Summer program.** Only Tucson ICE + Santa Fe applied. The
-      rest (Elantra, IONIQ 5, Kona cash, etc.) needs the **regional MS bulletin
-      with model codes** — the national one-pager is not enough. See the July 1
-      "2026 Dealer Programs Communication" (national summary only).
-- [ ] **Refresh `end_date`** past 7/6/2026 when the next window is confirmed
-      (Summer event runs to ~Labor Day).
+- [x] **July program loaded** (PR #11) from the MS Region Summary, eff 7/2–8/3/2026.
+- [ ] **Palisade HEV Sales Event Cash $1,000** — held pending trim/code confirm from the rep.
+- [ ] **Rep confirm (belt-and-suspenders):** the DC rate sweep (5.39→5.69/5.19), Palisade gas DC $1,000, and Kona no-DC — all applied straight from the official grid.
+- [ ] **Refresh `end_date`** past 8/3/2026 when the next window is confirmed.
 - [ ] **Migrate the two client-side apps to the feed** (one-line URL swap each;
       both currently read raw GitHub and will break if this repo goes private):
       - `Sales-Battle-Card` → `region_incentives/index.html`: raw URLs → `https://incentive-1ik.pages.dev/incentive_apr.csv` and `/event_cash.csv`
