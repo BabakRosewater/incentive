@@ -1,30 +1,34 @@
 model_code,my,model_desc,section,type,program_id,program_name,amount_cash,end_date
-90492A45,2026,2026 SANTA CRUZ SEL ACTIVITY AWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2026 SANTA CRUZ Retail Bonus Cash ,1750,7/6/2026
-90472AT5,2026,2026 SANTA CRUZ LIMITED AWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2027 SANTA CRUZ Retail Bonus Cash ,1750,7/6/2026
-90462AT5,2026,2026 SANTA CRUZ XRT AWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2028 SANTA CRUZ Retail Bonus Cash ,1750,7/6/2026
-90432A45,2026,2026 SANTA CRUZ SEL AWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2029 SANTA CRUZ Retail Bonus Cash ,1750,7/6/2026
-90402A45,2026,2026 SANTA CRUZ SE AWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2030 SANTA CRUZ Retail Bonus Cash ,1750,7/6/2026
-654C2AT5,2026,2026 SANTA FE CALLIGRAPHY 2.5T AWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2034 SANTA FE Retail Bonus Cash ,2750,7/6/2026
-65492AT5,2026,2026 SANTA FE LIMITED 2.5T AWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2035 SANTA FE Retail Bonus Cash ,2750,7/6/2026
-65462AT5,2026,2026 SANTA FE XRT 2.5T AWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2036 SANTA FE Retail Bonus Cash ,2750,7/6/2026
-65432AT5,2026,2026 SANTA FE SEL 2.5T AWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2037 SANTA FE Retail Bonus Cash ,2750,7/6/2026
-65402AT5,2026,2026 SANTA FE SE 2.5T AWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2038 SANTA FE Retail Bonus Cash ,2750,7/6/2026
-494M2F4S,2026,2026 ELANTRA LIMITED,Retail Bonus Cash ,Retail Bonus Cash ,x,2026 ELANTRA Retail Bonus Cash,2000,7/6/2026
-494K2F4S,2026,2026 ELANTRA SEL SPORT PREMIUM,Retail Bonus Cash ,Retail Bonus Cash ,x,2027 ELANTRA Retail Bonus Cash,2000,7/6/2026
-494G2F4S,2026,2026 ELANTRA SEL SPORT,Retail Bonus Cash ,Retail Bonus Cash ,x,2028 ELANTRA Retail Bonus Cash,2000,7/6/2026
-494E2F4S,2026,2026 ELANTRA SE,Retail Bonus Cash ,Retail Bonus Cash ,x,2029 ELANTRA Retail Bonus Cash,2000,7/6/2026
-494D2FBS,2026,2026 ELANTRA HYBRID LIMITED,Retail Bonus Cash ,Retail Bonus Cash ,x,2030 ELANTRA Retail Bonus Cash,1000,7/6/2026
-494C2FBS,2026,2026 ELANTRA HYBRID BLUE,Retail Bonus Cash ,Retail Bonus Cash ,x,2031 ELANTRA Retail Bonus Cash,1000,7/6/2026
-494B2FBS,2026,2026 ELANTRA HYBRID SEL SPORT,Retail Bonus Cash ,Retail Bonus Cash ,x,2032 ELANTRA Retail Bonus Cash,1000,7/6/2026
-654M2FBS,2026,2026 SANTA FE HYBRID CALLIGRAPHY FWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2037 SANTA FE Retail Bonus Cash ,2750,7/6/2026
-654M2ABS,2026,2026 SANTA FE HYBRID CALLIGRAPHY AWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2038 SANTA FE Retail Bonus Cash ,2750,7/6/2026
-654J2FBS,2026,2026 SANTA FE HYBRID LIMITED FWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2039 SANTA FE Retail Bonus Cash ,2750,7/6/2026
-654J2ABS,2026,2026 SANTA FE HYBRID LIMITED AWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2040 SANTA FE Retail Bonus Cash ,2750,7/6/2026
-654F2FBS,2026,2026 SANTA FE HYBRID SEL FWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2041 SANTA FE Retail Bonus Cash ,2750,7/6/2026
-654F2ABS,2026,2026 SANTA FE HYBRID SEL AWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2042 SANTA FE Retail Bonus Cash ,2750,7/6/2026
-654E2FBS,2026,2026 SANTA FE HYBRID SE FWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2043 SANTA FE Retail Bonus Cash ,2750,7/6/2026
-654E2ABS,2026,2026 SANTA FE HYBRID SE AWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2044 SANTA FE Retail Bonus Cash ,2750,7/6/2026
-Q1492AT5,2026,2026 KONA LIMITED AWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2026 KONA Retail Bonus Cash,750,7/6/2026
-Q1422AT5,2026,2026 KONA SEL PREMIUM AWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2026 KONA Retail Bonus Cash,750,7/6/2026
-Q1412A45,2026,2026 KONA SEL SPORT AWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2026 KONA Retail Bonus Cash,750,7/6/2026
-Q1402A45,2026,2026 KONA SE AWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2026 KONA Retail Bonus Cash,750,7/6/2026
+90492A45,2026,2026 SANTA CRUZ SEL ACTIVITY AWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2026 SANTA CRUZ Retail Bonus Cash ,2000,8/3/2026
+90472AT5,2026,2026 SANTA CRUZ LIMITED AWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2027 SANTA CRUZ Retail Bonus Cash ,2000,8/3/2026
+90462AT5,2026,2026 SANTA CRUZ XRT AWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2028 SANTA CRUZ Retail Bonus Cash ,2000,8/3/2026
+90432A45,2026,2026 SANTA CRUZ SEL AWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2029 SANTA CRUZ Retail Bonus Cash ,2000,8/3/2026
+90402A45,2026,2026 SANTA CRUZ SE AWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2030 SANTA CRUZ Retail Bonus Cash ,2000,8/3/2026
+654C2AT5,2026,2026 SANTA FE CALLIGRAPHY 2.5T AWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2034 SANTA FE Retail Bonus Cash ,3000,8/3/2026
+65492AT5,2026,2026 SANTA FE LIMITED 2.5T AWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2035 SANTA FE Retail Bonus Cash ,3000,8/3/2026
+65462AT5,2026,2026 SANTA FE XRT 2.5T AWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2036 SANTA FE Retail Bonus Cash ,3000,8/3/2026
+65432AT5,2026,2026 SANTA FE SEL 2.5T AWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2037 SANTA FE Retail Bonus Cash ,3000,8/3/2026
+65402AT5,2026,2026 SANTA FE SE 2.5T AWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2038 SANTA FE Retail Bonus Cash ,3000,8/3/2026
+494M2F4S,2026,2026 ELANTRA LIMITED,Retail Bonus Cash ,Retail Bonus Cash ,x,2026 ELANTRA Retail Bonus Cash,2000,8/3/2026
+494K2F4S,2026,2026 ELANTRA SEL SPORT PREMIUM,Retail Bonus Cash ,Retail Bonus Cash ,x,2027 ELANTRA Retail Bonus Cash,2000,8/3/2026
+494G2F4S,2026,2026 ELANTRA SEL SPORT,Retail Bonus Cash ,Retail Bonus Cash ,x,2028 ELANTRA Retail Bonus Cash,2000,8/3/2026
+494E2F4S,2026,2026 ELANTRA SE,Retail Bonus Cash ,Retail Bonus Cash ,x,2029 ELANTRA Retail Bonus Cash,2000,8/3/2026
+494D2FBS,2026,2026 ELANTRA HYBRID LIMITED,Retail Bonus Cash ,Retail Bonus Cash ,x,2030 ELANTRA Retail Bonus Cash,1000,8/3/2026
+494C2FBS,2026,2026 ELANTRA HYBRID BLUE,Retail Bonus Cash ,Retail Bonus Cash ,x,2031 ELANTRA Retail Bonus Cash,1000,8/3/2026
+494B2FBS,2026,2026 ELANTRA HYBRID SEL SPORT,Retail Bonus Cash ,Retail Bonus Cash ,x,2032 ELANTRA Retail Bonus Cash,1000,8/3/2026
+654M2FBS,2026,2026 SANTA FE HYBRID CALLIGRAPHY FWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2037 SANTA FE Retail Bonus Cash ,3000,8/3/2026
+654M2ABS,2026,2026 SANTA FE HYBRID CALLIGRAPHY AWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2038 SANTA FE Retail Bonus Cash ,3000,8/3/2026
+654J2FBS,2026,2026 SANTA FE HYBRID LIMITED FWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2039 SANTA FE Retail Bonus Cash ,3000,8/3/2026
+654J2ABS,2026,2026 SANTA FE HYBRID LIMITED AWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2040 SANTA FE Retail Bonus Cash ,3000,8/3/2026
+654F2FBS,2026,2026 SANTA FE HYBRID SEL FWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2041 SANTA FE Retail Bonus Cash ,3000,8/3/2026
+654F2ABS,2026,2026 SANTA FE HYBRID SEL AWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2042 SANTA FE Retail Bonus Cash ,3000,8/3/2026
+654E2FBS,2026,2026 SANTA FE HYBRID SE FWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2043 SANTA FE Retail Bonus Cash ,3000,8/3/2026
+654E2ABS,2026,2026 SANTA FE HYBRID SE AWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2044 SANTA FE Retail Bonus Cash ,3000,8/3/2026
+Q1492AT5,2026,2026 KONA LIMITED AWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2026 KONA Retail Bonus Cash,1000,8/3/2026
+Q1422AT5,2026,2026 KONA SEL PREMIUM AWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2026 KONA Retail Bonus Cash,1000,8/3/2026
+Q1412A45,2026,2026 KONA SEL SPORT AWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2026 KONA Retail Bonus Cash,1000,8/3/2026
+Q1402A45,2026,2026 KONA SE AWD,Retail Bonus Cash ,Retail Bonus Cash ,x,2026 KONA Retail Bonus Cash,1000,8/3/2026
+51462AEZ,2026,"2026 IONIQ 5 AWD 20"" WHEELS LIMITED",Retail Bonus Cash ,Retail Bonus Cash ,x,2026 IONIQ 5 Retail Bonus Cash,7000,8/3/2026
+I55AAYCZW5AZ,2026,2026 IONIQ 5 AWD XRT,Retail Bonus Cash ,Retail Bonus Cash ,x,2026 IONIQ 5 Retail Bonus Cash,7000,8/3/2026
+I95AAYCZW7AZ,2026,2026 IONIQ 9 AWD SEL,Retail Bonus Cash ,Retail Bonus Cash ,x,2026 IONIQ 9 Retail Bonus Cash,10000,8/3/2026
+I99AAYBZW6AZ,2026,2026 IONIQ 9 AWD PERFORMANCE CALLIGRAPHY,Retail Bonus Cash ,Retail Bonus Cash ,x,2026 IONIQ 9 Retail Bonus Cash,10000,8/3/2026
